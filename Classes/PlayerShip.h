@@ -20,10 +20,10 @@ public:
     void addShotCoords(Vec2);
     Vec2 removeShotCoords();
     void shootLaser(Node*);
-    std::queue<Vec2> shootCoordinates;
-
-
+    std::queue<Sprite*> laserShots;
+    
 private:
+    std::queue<Vec2> shootCoordinates;
     Sprite* playerShip;
     int shipHealth;
     int missileCount;

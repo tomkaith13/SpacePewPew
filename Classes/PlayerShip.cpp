@@ -68,27 +68,30 @@ void PlayerShip::shootLaser(Node* rootNode)
     float rotAngle = 0;
     
     
-    Sprite* laser = Sprite::create(RED_LASER);
-    laser->setPosition(Vec2(shipPos.x, shipPos.y + playerShip->getContentSize().height));
-    
-    //log("ship pos x: %f y:%f", shipPos.x, shipPos.y);
-    rotAngle = atan2f(laserShot.x - shipPos.x, laserShot.y - shipPos.y);
-    
-    //log("angle=%f", CC_RADIANS_TO_DEGREES(rotAngle));
-    laser->setRotation(CC_RADIANS_TO_DEGREES(rotAngle));
-    laser->setScale(3);
-    rootNode->addChild(laser);
-    
-    
-    
-    
-    auto shotMove = MoveTo::create(1.5, laserShot);
-    
-    auto shotSeq = Sequence::create(shotMove, RemoveSelf::create(), nullptr);
-    laser->runAction(shotSeq);
-    
-    
-                                   
+    if (missileCount != 0)
+    {
+        
+        Sprite* laser = Sprite::create(RED_LASER);
+        laser->setPosition(Vec2(shipPos.x, shipPos.y + playerShip->getContentSize().height));
+        
+        //log("ship pos x: %f y:%f", shipPos.x, shipPos.y);
+        rotAngle = atan2f(laserShot.x - shipPos.x, laserShot.y - shipPos.y);
+        
+        //log("angle=%f", CC_RADIANS_TO_DEGREES(rotAngle));
+        laser->setRotation(CC_RADIANS_TO_DEGREES(rotAngle));
+        laser->setScale(3);
+        rootNode->addChild(laser);
+        
+        auto shotMove = MoveTo::create(1.5, laserShot);
+        auto laserIncrFunc = CallFunc::create([&] {
+            missileCount++;
+        });
+        
+        auto shotSeq = Sequence::create(shotMove, RemoveSelf::create(), laserIncrFunc, nullptr);
+        laser->runAction(shotSeq);
+        laserShots.push(laser);
+        missileCount--;
+    }
 }
 
 int PlayerShip::getShipZOrder()
