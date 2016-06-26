@@ -1,0 +1,166 @@
+<Solution>
+  <PropertyGroup Name="SpacePewPew" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="buttons">
+          <Folder Name="buttons-round">
+            <Folder Name="locked-buttons">
+              <Image Name="back.png" />
+              <Image Name="forward.png" />
+              <Image Name="info.png" />
+              <Image Name="list-two.png" />
+              <Image Name="pause.png" />
+              <Image Name="play.png" />
+              <Image Name="save.png" />
+              <Image Name="stop.png" />
+            </Folder>
+            <Folder Name="pressed">
+              <Folder Name="blue">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="green">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="purpleypink">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="red">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="yellow">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+            </Folder>
+            <Folder Name="unpressed">
+              <Folder Name="blue">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="green">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="purpleypink">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="red">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+              <Folder Name="yellow">
+                <Image Name="back.png" />
+                <Image Name="forward.png" />
+                <Image Name="info.png" />
+                <Image Name="list-two.png" />
+                <Image Name="pause.png" />
+                <Image Name="play.png" />
+                <Image Name="save.png" />
+                <Image Name="stop.png" />
+              </Folder>
+            </Folder>
+            <File Name="read_me.txt" />
+          </Folder>
+        </Folder>
+        <Folder Name="png">
+          <Folder Name="Background">
+            <Image Name="backgroundColor.png" />
+            <Image Name="nebula.png" />
+            <Image Name="speedLine.png" />
+            <Image Name="starBackground.png" />
+            <Image Name="starBig.png" />
+            <Image Name="starSmall.png" />
+          </Folder>
+          <Image Name="enemyShip.png" />
+          <Image Name="enemyUFO.png" />
+          <Image Name="laserGreen.png" />
+          <Image Name="laserGreenShot.png" />
+          <Image Name="laserRed.png" />
+          <Image Name="laserRedShot.png" />
+          <Image Name="life.png" />
+          <Image Name="meteorBig.png" />
+          <Image Name="meteorSmall.png" />
+          <Image Name="player.png" />
+          <Image Name="playerDamaged.png" />
+          <Image Name="playerLeft.png" />
+          <Image Name="playerRight.png" />
+          <Image Name="shield.png" />
+        </Folder>
+        <TTF Name="alien.ttf" />
+        <Image Name="cross_normal.png" />
+        <Image Name="cross_pressed.png" />
+        <Project Name="GameAsteriodLayer.csd" Type="Layer" />
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Project Name="MainMenuLayer.csd" Type="Layer" />
+        <Project Name="MainMenuScene.csd" Type="Scene" />
+        <Image Name="meteor1.png" />
+        <Image Name="QuitLabel.png" />
+        <Image Name="Splash.png" />
+        <Project Name="SplashScene.csd" Type="Scene" />
+        <Project Name="StopGameScene.csd" Type="Scene" />
+        <Image Name="tick_button_normal.png" />
+        <Image Name="tick_button_pressed.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
