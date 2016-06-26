@@ -64,7 +64,7 @@ void PlayerShip::shootLaser(Node* rootNode)
 {
     Vec2 laserShot = removeShotCoords();
     Vec2 shipPos = getShipPosition();
-    Vec2 normalizedShot = (laserShot - shipPos).normalize();
+    //Vec2 normalizedShot = (laserShot - shipPos).normalize();
     float rotAngle = 0;
     
     
@@ -79,7 +79,7 @@ void PlayerShip::shootLaser(Node* rootNode)
     laser->setScale(3);
     rootNode->addChild(laser);
     
-    auto collisionDetectionFunc = CallFunc::create([])
+    
     
     
     auto shotMove = MoveTo::create(1.5, laserShot);

@@ -43,6 +43,7 @@ private:
     PlayerShip* playerShipObj;
 
     virtual void createScrollableScreen(Node* rootNode);
+    //std::queue<Vec2> shotCoords;
     
 };
 
