@@ -20,9 +20,11 @@ public:
     void addShotCoords(Vec2);
     Vec2 removeShotCoords();
     void shootLaser(Node*);
-    std::queue<Sprite*> laserShots;
+    // This is the deque for laser sprite collision calculations
+    std::deque<Sprite*> laserShots;
     
 private:
+    //store touch coordinates
     std::queue<Vec2> shootCoordinates;
     Sprite* playerShip;
     int shipHealth;

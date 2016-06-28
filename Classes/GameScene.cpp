@@ -115,6 +115,12 @@ void GameScene::update(float dt)
             shootPressed = false;
             
         }
+        
+        for(int i = 0; i< playerShipObj->laserShots.size(); i++)
+        {
+            auto sprite = (playerShipObj->laserShots)[i];
+            //log("shot#: %d, shot.x:%f, shot.y:%f", i, sprite->getPosition().x, sprite->getPosition().y);
+        }
    
     }
     /*

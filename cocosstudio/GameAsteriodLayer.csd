@@ -219,11 +219,11 @@
             <FileData Type="Normal" Path="meteor1.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="meteor1_20" ActionTag="1899858216" Tag="38" RotationSkewX="104.2418" RotationSkewY="104.2245" IconVisible="False" LeftMargin="930.9801" RightMargin="1069.0199" TopMargin="473.9225" BottomMargin="581.0775" ctype="SpriteObjectData">
+          <AbstractNodeData Name="meteor1_20" ActionTag="1899858216" Tag="38" RotationSkewX="104.2401" RotationSkewY="104.2174" IconVisible="False" LeftMargin="930.9789" RightMargin="1069.0211" TopMargin="473.9257" BottomMargin="581.0743" ctype="SpriteObjectData">
             <Size X="208.0000" Y="187.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="1034.9801" Y="674.5775" />
-            <Scale ScaleX="1.3110" ScaleY="1.6424" />
+            <Position X="1034.9789" Y="674.5743" />
+            <Scale ScaleX="2.0090" ScaleY="2.0887" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.4687" Y="0.5431" />
             <PreSize X="0.0942" Y="0.1506" />

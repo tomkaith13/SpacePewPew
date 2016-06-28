@@ -28,5 +28,14 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="GameScene.csd" />
+          <FilePathData Path="GameAsteriodLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="GameAsteriodLayer.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>
