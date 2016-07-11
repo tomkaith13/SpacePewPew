@@ -55,7 +55,7 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="GameAsteriodLayer.csd" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyShip_14" ActionTag="-79004963" Tag="66" IconVisible="False" LeftMargin="371.3204" RightMargin="1738.6796" TopMargin="264.6295" BottomMargin="927.3705" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyShip_1" ActionTag="-79004963" Tag="66" IconVisible="False" LeftMargin="371.3204" RightMargin="1738.6796" TopMargin="264.6295" BottomMargin="927.3705" ctype="SpriteObjectData">
             <Size X="98.0000" Y="50.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="420.3204" Y="952.3705" />
@@ -66,7 +66,7 @@
             <FileData Type="Normal" Path="png/enemyShip.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyShip_14_0" ActionTag="-1780187828" Tag="67" IconVisible="False" LeftMargin="1057.6733" RightMargin="1052.3267" TopMargin="275.2629" BottomMargin="916.7371" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyShip_2" ActionTag="-1780187828" Tag="67" IconVisible="False" LeftMargin="1057.6733" RightMargin="1052.3267" TopMargin="275.2629" BottomMargin="916.7371" ctype="SpriteObjectData">
             <Size X="98.0000" Y="50.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="1106.6733" Y="941.7371" />
@@ -77,7 +77,7 @@
             <FileData Type="Normal" Path="png/enemyShip.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyShip_14_1" ActionTag="1127718994" Tag="68" IconVisible="False" LeftMargin="1775.9438" RightMargin="334.0562" TopMargin="280.5836" BottomMargin="911.4164" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyShip_3" ActionTag="1127718994" Tag="68" IconVisible="False" LeftMargin="1775.9438" RightMargin="334.0562" TopMargin="280.5836" BottomMargin="911.4164" ctype="SpriteObjectData">
             <Size X="98.0000" Y="50.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="1824.9438" Y="936.4164" />

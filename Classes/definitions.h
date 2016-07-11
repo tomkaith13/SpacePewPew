@@ -30,7 +30,8 @@
 #define SHIP_LEFT_MOVE "res/png/playerLeft.png"
 #define SHIP_CENTER "res/png/player.png"
 
-
+//enemy ship png
+#define ENEMY_SHIP_1 "enemyShip_1"
 
 // Asteroid rotation angles and delay variables
 #define ASTEROID_DELAY_TIME 9

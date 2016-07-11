@@ -85,6 +85,8 @@ void GameScene::update(float dt)
 {
     auto moveLeft = MoveBy::create(0.1, Vec2(-SHIP_MOVE_SPEED,0));
     auto moveRight = MoveBy::create(0.1, Vec2(SHIP_MOVE_SPEED,0));
+    auto enemyShip1 = rootNode->getChildByName(ENEMY_SHIP_1);
+
     
     Vec2 shot;
     Sprite* laser;
@@ -119,6 +121,13 @@ void GameScene::update(float dt)
         for(int i = 0; i< playerShipObj->laserShots.size(); i++)
         {
             auto sprite = (playerShipObj->laserShots)[i];
+            auto laserRect = sprite->getBoundingBox();
+            auto enemy1Rect = enemyShip1->getBoundingBox();
+            
+            if (laserRect.intersectsRect(enemy1Rect)) {
+                sprite->setVisible(false);
+            }
+            
             //log("shot#: %d, shot.x:%f, shot.y:%f", i, sprite->getPosition().x, sprite->getPosition().y);
         }
    
